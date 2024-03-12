@@ -1,4 +1,4 @@
-pm.test("Закладка не найдена", function () {
+pm.test("Закладка была не найдена", function () {
     var jsonData = pm.response.json();
-    pm.expect(jsonData.message).to.eql("закладка не найдена");
+    pm.expect(jsonData.message).to.eql("закладка была не найдена");
 });
